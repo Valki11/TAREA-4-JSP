@@ -73,8 +73,7 @@ tabla.addRow(datos);
         
         
     }
-   
-    @Override
+
     public void agregar(){
         int retorno = 0;
         try{
@@ -97,9 +96,7 @@ tabla.addRow(datos);
             System.out.println(ex.getMessage());
             retorno = 0;
         }
-        return retorno;
+        
     }
             
-            
-    
 }

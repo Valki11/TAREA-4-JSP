@@ -84,7 +84,21 @@
       </tr>
     </thead>
     <tbody id="tbl_empleados">
-       Empleado 
+        <%
+       Empleado empleado =new Empleado();
+       DefaultTableModel tabla = new DefaultTableModel();
+       Tabla= empleado.leer();
+       for(int t=0;t<tabla.getRowCount();t++){
+            out.println("<tr>");
+            
+            out.println("</tr>");
+           
+       
+            }
+
+       %>     
+      </tbody>
+      </table>
         </div>
             </form>
             
